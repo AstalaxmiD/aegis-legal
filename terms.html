@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aegis · Terms of Use</title>
+<style>
+:root {
+  --ink: #1e2420; --muted: #5d6a63; --accent: #3E7362; --accent-soft: #f0ece0;
+  --card: #fffdf8; --bg: #f6f2e9; --rule: #e6e0d2;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #edf1ee; --muted: #9fada5; --accent: #8FC3B1; --accent-soft: #233029;
+          --card: #1a211d; --bg: #121814; --rule: #2b342f; }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+       background: var(--bg); color: var(--ink); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 24px 64px; }
+header { display: flex; align-items: center; justify-content: space-between; padding: 26px 0 22px; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); }
+.brand b { font-size: 1.25rem; letter-spacing: 0.01em; }
+nav a { color: var(--muted); text-decoration: none; font-size: 0.92rem; margin-left: 22px; font-weight: 500; }
+nav a.active, nav a:hover { color: var(--accent); }
+.hero { padding: 30px 0 26px; }
+.hero .eyebrow { color: var(--accent); font-weight: 600; font-size: 0.8rem;
+                 text-transform: uppercase; letter-spacing: 0.12em; }
+.hero h1 { font-size: 2.1rem; letter-spacing: -0.02em; margin: 6px 0 10px; }
+.hero .date { color: var(--muted); font-size: 0.92rem; }
+.pledge { background: var(--accent-soft); border-left: 3px solid var(--accent);
+          padding: 14px 18px; border-radius: 0 10px 10px 0; margin-bottom: 28px;
+          font-size: 1.02rem; }
+.card { background: var(--card); border: 1px solid var(--rule); border-radius: 16px;
+        padding: 8px 34px 26px; box-shadow: 0 1px 2px rgba(30,40,34,0.05); }
+.card section { padding: 22px 0 4px; }
+.card section + section { border-top: 1px solid var(--rule); }
+h2 { font-size: 1.02rem; letter-spacing: -0.01em; margin-bottom: 6px; }
+p  { color: var(--muted); font-size: 0.97rem; }
+p a { color: var(--accent); }
+footer { display: flex; align-items: center; justify-content: space-between;
+         margin-top: 34px; color: var(--muted); font-size: 0.85rem; flex-wrap: wrap; gap: 8px; }
+footer a { color: var(--muted); text-decoration: none; margin-left: 16px; }
+footer a:hover { color: var(--accent); }
+@media (max-width: 540px) { .card { padding: 4px 20px 20px; } .hero h1 { font-size: 1.7rem; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="privacy.html"><svg width="34" height="34" viewBox="0 0 512 512" aria-hidden="true">
+<defs><linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#7FB8A4"/><stop offset="1" stop-color="#4E8A77"/></linearGradient></defs>
+<rect width="512" height="512" rx="118" fill="url(#lg)"/>
+<g transform="translate(256,262) scale(0.82)">
+<path d="M0 -126 C 50 -108, 88 -101, 106 -101 C 118 -101, 124 -93, 124 -82
+         L 124 6 C 124 80, 70 138, 0 168 C -70 138, -124 80, -124 6
+         L -124 -82 C -124 -93, -118 -101, -106 -101 C -88 -101, -50 -108, 0 -126 Z"
+      fill="#F7EBD8"/>
+<path d="M -52 -46 h 104 a 12 12 0 0 1 12 12 v 68 a 12 12 0 0 1 -12 12 h -104
+         a 12 12 0 0 1 -12 -12 v -68 a 12 12 0 0 1 12 -12 Z
+         M -46 -40 h 92 a 6 6 0 0 1 6 6 v 56 a 6 6 0 0 1 -6 6 h -92
+         a 6 6 0 0 1 -6 -6 v -56 a 6 6 0 0 1 6 -6 Z" fill="#3E7362" fill-rule="evenodd"/>
+<clipPath id="lgi"><rect x="-46" y="-40" width="92" height="68" rx="6"/></clipPath>
+<g clip-path="url(#lgi)">
+<path d="M -46 28 L -22 -4 L -2 20 L 16 0 L 46 28 L 46 40 L -46 40 Z" fill="#4E8A77"/>
+<path d="M -22 -4 L -30 6.7 L -14.1 5.5 Z" fill="#E07856"/>
+<path d="M 16 0 L 8.8 8 L 25.6 9 Z" fill="#E07856"/>
+<circle cx="30" cy="-18" r="11" fill="#E07856"/>
+</g>
+</g>
+</svg><b>Aegis</b></a>
+  <nav>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html" class="active">Terms</a>
+  </nav>
+</header>
+<div class="hero">
+  <div class="eyebrow">Aegis Legal</div>
+  <h1>Terms of Use</h1>
+  <div class="date">Effective August 6, 2026</div>
+</div>
+<div class="pledge">Plain terms for a simple promise: Aegis is a protection tool that runs on your device, provided as is.</div>
+<div class="card">
+<section><h2>Acceptance</h2>
+<p>By using Aegis you agree to these terms. If you do not agree, do not use the app. These terms are an agreement between you and the developer of Aegis, not Apple.</p></section>
+<section><h2>License</h2>
+<p>Aegis is licensed to you for personal, non-commercial use on Apple devices you own or control, under <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple's standard Licensed Application End User License Agreement</a>. These terms add app-specific points to that agreement; if anything here conflicts with it, Apple's standard license controls.</p></section>
+<section><h2>What Aegis is</h2>
+<p>Aegis is a protection tool. Its layers make misuse of your photos harder to do, easier to detect, and easier to prove. No protection is absolute: a determined attacker with the right tools may remove or bypass individual layers. Aegis does not guarantee that a protected photo can never be misused, and a Verify result is technical evidence, not a legal determination.</p></section>
+<section><h2>Purchases and subscriptions</h2>
+<p>Aegis Pro is available as a one-time lifetime purchase or as an annual subscription, at the prices shown in the app. Payment is charged to your Apple Account when you confirm the purchase. The annual subscription renews automatically unless you cancel it at least 24 hours before the end of the current period, and your account is charged for the renewal within 24 hours before the current period ends. You can manage or cancel the subscription at any time in your App Store account settings, or from Manage Subscription inside the app. Refunds are handled by Apple; you can request one at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. The free tier includes a monthly allowance of protected photos, which may change. Prices can vary by region and may change for future purchases and renewal periods as the App Store provides.</p></section>
+<section><h2>Your photos and our rights</h2>
+<p>Your photos are yours. Aegis claims no ownership of, or rights over, any photo you protect, verify, or compare. The app itself, including its name, design, and protection methods, belongs to the developer and is protected by intellectual property law.</p></section>
+<section><h2>Your responsibilities</h2>
+<p>Only protect photos you have the right to use. You are responsible for how you use the app and for complying with the laws that apply to you. You represent that you are not located in a country subject to a U.S. government embargo and are not on any U.S. government list of prohibited or restricted parties.</p></section>
+<section><h2>Apple's role</h2>
+<p>The developer, not Apple, is responsible for Aegis, its content, and its maintenance and support; Apple has no obligation to provide any maintenance or support for the app. If Aegis fails to conform to an applicable warranty, you may notify Apple and Apple will refund the purchase price as the standard license provides; to the maximum extent permitted by law, Apple has no other warranty obligation. The developer, not Apple, is responsible for addressing any claim relating to the app, including product liability, regulatory, or intellectual property claims. Apple and its subsidiaries are third-party beneficiaries of these terms and may enforce them against you.</p></section>
+<section><h2>No warranty</h2>
+<p>Aegis is provided as is and as available, without warranties of any kind, express or implied, including fitness for a particular purpose and non-infringement. Some jurisdictions do not allow the exclusion of implied warranties, so parts of this section may not apply to you.</p></section>
+<section><h2>Limitation of liability</h2>
+<p>To the maximum extent permitted by law, the developer is not liable for any indirect, incidental, special, consequential, or exemplary damages arising from your use of the app, including harm resulting from misuse of a photo by a third party. Nothing in these terms limits rights that mandatory consumer protection law gives you, or excludes liability that cannot be excluded by law.</p></section>
+<section><h2>Termination</h2>
+<p>These terms apply for as long as you use the app. Deleting the app ends the license.</p></section>
+<section><h2>Changes</h2>
+<p>If these terms change, the new version ships with an app update and the effective date above changes with it.</p></section>
+<section><h2>Contact</h2>
+<p>Support and maintenance for Aegis are the developer's responsibility, not Apple's. Questions about these terms, or any support request: aegis.app@yahoo.com</p></section>
+</div>
+<footer>
+  <span>&copy; 2026 Aegis. All rights reserved.</span>
+  <span><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></span>
+</footer>
+</div>
+</body>
+</html>
